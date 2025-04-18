@@ -2,6 +2,7 @@ import os
 import signal
 import sys
 import argparse
+import time
 import platform
 import shutil
 
@@ -29,4 +30,5 @@ if __name__ == '__main__':
         signal.alarm(seconds)
         signal.pause()
     else:
+        time.sleep(seconds + 1)
         sys.exit(0)
