@@ -1,7 +1,7 @@
 import threading
 
-left_border = 2
-right_border = 23
+left_border = int(input("Введіть ліву границю: "))
+right_border = int(input("Введіть праву границю: "))
 
 precision_parts = 1000
 
